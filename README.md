@@ -1,31 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app),
 
-Digital Object Identifier available for citation at:
+# CellTime
 
-[![DOI](https://zenodo.org/badge/360168321.svg)](https://zenodo.org/badge/latestdoi/360168321)
-
+#### A React turned MacOS app that will allow you to dial cell number using your iPhone
 
 ## Features included
 
 - Built using Typescript.
-- Built using the official `redux-toolkit` template.
 - Merged features from the official `create-react-app` template.
 - All the dependencies in package.json are up-to-date.
-- Redux folder structure is all set. Everything is decoupled upon store, slices, actions.
-- Common, Type Definitions, Enums, Utils, Global axios configured.
-- Basic routing is integrated.
-- Protected routes
-- Components are divided into Modules, Pages, Components, Molecule and Atom. (Modules being biggest and atom being smallest).
 - Material-UI is integrated including fonts and icons.
-- Basic Material Responsive Layout is added (Header/AppBar, SideNav/Drawer, MainContent).
 - Centralized/Global Material-UI theme is added. (Almost zero CSS will be used in the app).
-- Auto/Manual Dark/Light theme is added.
+- Auto Dark/Light theme is added.
 
-### To be added
-
-- OpenAPI/Swagger Service Generator
-- or axios interceptors.
-- API Service unit tests.
+<!-- ### To be added -->
 
 ## Available Scripts
 
