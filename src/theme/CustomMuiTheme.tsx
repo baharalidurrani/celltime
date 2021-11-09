@@ -1,8 +1,6 @@
-import React, { useEffect, useMemo } from "react";
+import React, { useMemo } from "react";
 import { CssBaseline, useMediaQuery } from "@mui/material";
 import { createTheme, StyledEngineProvider, ThemeProvider } from "@mui/material/styles";
-import { useAppDispatch, useAppSelector } from "src/app-redux/hooks";
-import { selectThemeType, themeTypeAction } from "src/app-redux/settings/settingsSlice";
 import { customTheme } from "./customTheme";
 
 // declare module "@mui/styles/defaultTheme" {
@@ -14,13 +12,7 @@ interface Props {
   children: React.ReactNode;
 }
 export function CustomMuiTheme(props: Props) {
-  const dispatch = useAppDispatch();
-  const goDarkState = useAppSelector(selectThemeType);
-
   const goDarkQuery = useMediaQuery("(prefers-color-scheme: dark)");
-  useEffect(() => {
-    dispatch(themeTypeAction(null));
-  }, [dispatch, goDarkQuery]);
 
   const theme = useMemo(
     () =>
@@ -28,10 +20,10 @@ export function CustomMuiTheme(props: Props) {
         ...customTheme,
         palette: {
           ...customTheme.palette,
-          mode: goDarkState ? goDarkState : goDarkQuery ? "dark" : "light",
+          mode: goDarkQuery ? "dark" : "light",
         },
       }),
-    [goDarkQuery, goDarkState]
+    [goDarkQuery]
   );
 
   return (
