@@ -1,6 +1,6 @@
 {
-  "short_name": "Durrani",
-  "name": "Bahar Ali Durrani",
+  "name": "CellTime",
+  "short_name": "CellTime",
   "icons": [
     {
       "src": "favicon/android-chrome-192x192.png",
@@ -11,16 +11,10 @@
       "src": "favicon/android-chrome-512x512.png",
       "sizes": "512x512",
       "type": "image/png"
-    },
-    {
-      "src": "favicon/maskable_icon.png",
-      "sizes": "1024x1024",
-      "type": "image/png",
-      "purpose": "any maskable"
     }
   ],
-  "start_url": "https://durrani.dev",
-  "display": "standalone",
-  "theme_color": "#9c27b0",
-  "background_color": "#9c27b0"
+  "start_url": "https://celltime.durrani.dev",
+  "theme_color": "#0ebe2c",
+  "background_color": "#0ebe2c",
+  "display": "standalone"
 }
