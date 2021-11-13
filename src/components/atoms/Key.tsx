@@ -40,7 +40,7 @@ export function Key({ title, onClick, noOutline, hidden }: Props): React.ReactEl
         }
         sx={styles}
       >
-        {title === "phone" ? <img src="/phone.svg" alt="Call" width="25px" /> : title}
+        {title === "phone" ? <img src="/phone.svg" alt="Call" width="25px" height="25px" /> : title}
       </ButtonBase>
     </>
   );
