@@ -1,21 +1,21 @@
-abstract: "A production-ready React, Typescript, Material-UI, Redux-Toolkit based responsive boilerplate."
+abstract: "An Installable Progressive Web App that lets you dial cell numbers using an iPhone paired up with a Mac."
 authors:
   - family-names: Ali
     given-names: Bahar
     name-particle: Durrani
     orcid: "https://orcid.org/0000-0003-2750-4420"
 cff-version: "1.1.0"
-date-released: 2021-10-26
-doi: "10.5281/zenodo.5600545"
+date-released: 2022-03-09
+# doi: "10.5281/zenodo.5600545"
 keywords:
   - react
   - typescript
   - "material-ui"
   - mui
-  - redux
-  - "redux-toolkit"
+  - macos
+  - pwa
 license: "GPL-3.0"
 message: "If you use this software, please cite it using these metadata."
-repository-code: "https://github.com/baharalidurrani/material-domain"
-title: "baharalidurrani/material-domain: v1.0.2"
-version: "v1.0.2"
+repository-code: "https://github.com/baharalidurrani/celltime"
+title: "baharalidurrani/celltime: v0.5.1"
+version: "v0.5.1"
