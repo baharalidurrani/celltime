@@ -1,5 +1,10 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app),
 
+Digital Object Identifier
+
+[![DOI](https://zenodo.org/badge/426322912.svg)](https://zenodo.org/badge/latestdoi/426322912)
+
+
 # CellTime
 
 #### A React turned MacOS app that will allow you to dial cell number using your iPhone

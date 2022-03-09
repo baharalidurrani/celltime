@@ -6,7 +6,7 @@ authors:
     orcid: "https://orcid.org/0000-0003-2750-4420"
 cff-version: "1.1.0"
 date-released: 2022-03-09
-# doi: "10.5281/zenodo.5600545"
+doi: "10.5281/zenodo.6341881"
 keywords:
   - react
   - typescript
